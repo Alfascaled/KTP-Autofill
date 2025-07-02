@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 6
+names: ['jenisKelamin', 'kebangsaan', 'nama', 'nik', 'pekerjaan', 'tempatTanggalLahir']
+
+roboflow:
+  workspace: nathan-workplace
+  project: ktp-ocr-9hmdy
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/nathan-workplace/ktp-ocr-9hmdy/dataset/2
